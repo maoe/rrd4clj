@@ -58,7 +58,7 @@
             (recur (z/next loc) false))))))
 
 (defn graph
-   #^{  :doc "Creates a new RRD Graph definition obejct"
+   #^{  :doc "Creates a new RRD Graph definition object"
         :arglists '()  }
    [  path
       {  :keys
